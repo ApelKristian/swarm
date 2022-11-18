@@ -3,3 +3,5 @@
 
 
 docker swarm init --advertise-addr [YOUR_IP]
+
+docker stack deploy --compose-file=docker-compose.yml selenium
