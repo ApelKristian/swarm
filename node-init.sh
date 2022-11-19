@@ -20,7 +20,8 @@ sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_
 sudo apt install --no-install-recommends r-base -y
 
 #install R packages
-sudo R -e 'install.packages("tidyverse")'
+sudo R -e 'install.packages("lubridate")'
+sudo R -e 'install.packages("magrittr")'
 sudo R -e 'install.packages("RSelenium")'
 
 
